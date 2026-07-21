@@ -1,57 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-      <meta name="keywords" content="gift, giftcard, card, skullcandy, titan, fastrack"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="vvWhkiwkCOusl-bg4lA3y7gsYu_VRQpP6DKQH3DzeG4" />
-    <link rel="canonical" href="https://kundan-jadhav2001.github.io/giftcards/">
-    <meta name="robots" content="index, follow">
-    <title>Home</title>
-    <style>
-        .card {
-            /* Add shadows to create the "card" effect */
-            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-            background-color: white;
-            border-radius: 20px;
-            transition: 0.3s;
-            width: 250px;
-            height: 250px;
-            align-content: center;
-        }
-
-        /* On mouse-over, add a deeper shadow */
-        .card:hover {
-            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-        }
-
-        /* Add some padding inside the card container */
-        .container {
-            padding: 5px;
-        }
-
-        a{
-            text-decoration: none;
-            color: inherit;
-            
-        }
-    </style>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2944777052556576"
-     crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kundan Jadhav — App & Software Developer</title>
+  <meta name="description"
+    content="Kundan Jadhav builds Android apps, websites, and desktop software. Flutter, Python, Go. See PicSwap, Aarti Sangrah, and MapOfMemorise.">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color: rgba(212, 215, 246, 0.4);">
-    <div style="margin-top: 100px;">
 
+<body>
+
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <span class="brand">कुंदन<span class="brand-dim">/</span>kundan</span>
+      <nav>
+        <a href="#about">about</a>
+        <a href="#apps">apps</a>
+        <a href="#stack">stack</a>
+        <a href="#contact">contact</a>
+      </nav>
     </div>
-    <center>
-        <a href="giftcards">
-            <div class="card">
-                <img src="./giftcards.jpg" alt="Avatar" style="width:200px">
-                <div class="container">
-                  <h4 style="font-size: 30px; margin: 10px;"><b>Gift Cards</b></h4>
-                </div>
-            </div>
-        </a>
-    </center>
+  </header>
+
+  <main>
+
+    <section class="hero wrap">
+      <p class="eyebrow">// android · desktop · web</p>
+      <h1>I build things that <span class="hl">run offline</span>,
+        <span class="hl">ship on Play Store</span>,
+        and <span class="hl">don't crash at 2am.</span>
+      </h1>
+      <p class="hero-sub">Kundan Jadhav — independent developer working across Flutter, Python and Go.
+        Three apps live below, built solo end to end: design, code, store listing, ship.</p>
+      <div class="hero-links">
+        <a class="btn" href="#apps">See the apps ↓</a>
+        <a class="btn btn-ghost" href="https://github.com/kundan-jadhav2001" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+
+    <section id="about" class="section wrap">
+      <h2><span class="num">01</span> About</h2>
+      <p class="lead">
+        I'm Kundan, an independent Android and software developer. I work directly with
+        codebases end to end — architecture, UI, store deployment, monetization, the whole
+        pipeline — across mobile, desktop and full-stack projects.
+      </p>
+      <p class="lead">
+        My work ranges from mobile puzzle games with custom physics-based piece dragging,
+        to a Marathi devotional audio app, to offline-first travel journals with a
+        hand-built Devanagari keyboard widget. I also build desktop software — a full
+        PyQt6 hotel management system — and backend/full-stack tools like a local
+        natural-language SQL chatbot.
+      </p>
+      <p class="lead">
+        I manage my own Play Console and AdMob accounts, and handle release signing,
+        store listings and localization (English + Marathi) myself for every app I ship.
+      </p>
+    </section>
+
+    <section id="apps" class="section wrap">
+      <h2><span class="num">02</span> Apps</h2>
+
+      <article class="app-card">
+        <div class="app-card-top">
+          <h3>PicSwap</h3>
+          <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.kundan.picswap" target="_blank"
+            rel="noopener">▶ Play Store</a>
+        </div>
+        <p class="tagline">Fragment. Solve. Reveal.</p>
+        <p>A puzzle game that breaks stunning images into uniquely odd-shaped, interlocking
+          pieces — no two pieces alike, no easy shortcuts. Rotate, swap and snap fragments
+          together across Forest, Ocean, Desert, Space and City chapters, at Easy, Medium
+          or Hard difficulty. Star ratings reward speed, a shop offers hints when you're
+          stuck, and the whole game works fully offline.</p>
+        <ul class="feature-list">
+          <li>Uniquely shaped, non-repeating puzzle pieces</li>
+          <li>5 themed chapters, 3 difficulty levels</li>
+          <li>Hint/tool shop + puzzle collection tracker</li>
+          <li>100% offline play</li>
+        </ul>
+        <p class="tech-tags">Flutter · Flame engine · Riverpod · AdMob · SharedPreferences</p>
+      </article>
+
+      <article class="app-card">
+        <div class="app-card-top">
+          <h3>आरती संग्रह — Aarti Sangrah</h3>
+          <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.kundan.aarti_book"
+            target="_blank" rel="noopener">▶ Play Store</a>
+        </div>
+        <p class="tagline">Your complete digital Marathi Aarti book.</p>
+        <p>A free devotional app collecting 15 popular Marathi Aartis — Ganpati, Shankar,
+          Durga, Vitthal, Panduranga and more — with slow and fast audio playback, adjustable
+          font size, a saffron-themed dark mode, and list/grid/group browsing with a
+          minimizable audio player.</p>
+        <ul class="feature-list">
+          <li>15 Aartis with dual-speed audio playback</li>
+          <li>Saffron dark mode + adjustable font size</li>
+          <li>List, grid and grouped views</li>
+          <li>Completely free, no subscriptions</li>
+        </ul>
+        <p class="tech-tags">Flutter · Firebase · AdMob · Marathi localization</p>
+      </article>
+
+      <article class="app-card">
+        <div class="app-card-top">
+          <h3>आठवणींचा नकाशा — MapOfMemorise</h3>
+          <span class="play-badge play-badge-soon">In progress</span>
+        </div>
+        <p class="tagline">Capture, organize and view your travel logs offline.</p>
+        <p>A travel journal app that turns your visited places into a scrollable levels-map
+          of your journey. Album snapshots float alongside each date like scattered
+          Polaroids, a continuous gallery grid holds every memory, and multiple places
+          can be logged under the same date.</p>
+        <ul class="feature-list">
+          <li>Chronological "map path" of travels</li>
+          <li>Polaroid-style album snapshots per date</li>
+          <li>Continuous photo gallery grid</li>
+          <li>Multi-album logging, custom Devanagari keyboard</li>
+        </ul>
+        <p class="tech-tags">Flutter · Travel · Memories · Custom Devanagari keyboard widget · AdMob</p>
+      </article>
+
+    </section>
+
+    <section id="stack" class="section wrap">
+      <h2><span class="num">03</span> Stack</h2>
+      <div class="stack-grid">
+        <div class="stack-col">
+          <h4>Mobile / Android</h4>
+          <p>Flutter · Riverpod · BLoC · Flame · AdMob · SQLite</p>
+        </div>
+        <div class="stack-col">
+          <h4>Desktop</h4>
+          <p>Python · PyQt6 · SQLite · Windows automation (pyautogui / pygetwindow)</p>
+        </div>
+        <div class="stack-col">
+          <h4>Web / Backend</h4>
+          <p>FastAPI · React · Go (WebSocket servers) · Django · Flask</p>
+        </div>
+        <div class="stack-col">
+          <h4>What I do</h4>
+          <p>Android app development · Desktop software · Full-stack web apps ·
+            Play Store &amp; AdMob setup · App localization (English/Marathi)</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section wrap">
+      <h2><span class="num">04</span> Contact</h2>
+      <p class="lead">Building an app, a desktop tool, or a website? I take on Android,
+        web and software development work.</p>
+      <div class="hero-links">
+        <a class="btn" href="https://github.com/kundan-jadhav2001" target="_blank" rel="noopener">GitHub ↗</a>
+        <a class="btn btn-ghost" href="https://play.google.com/store/apps/developer?id=Kundan+Jadhav" target="_blank"
+          rel="noopener">Play Store ↗</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Kundan Jadhav</span>
+      <span class="footer-dim">Built with Flutter, Python, Go — and a lot of debugging.</span>
+    </div>
+  </footer>
+
 </body>
+
 </html>
